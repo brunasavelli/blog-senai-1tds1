@@ -1,11 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-
-.roboto-condensed- {
-    font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 *{
     margin: 0;
@@ -13,6 +7,28 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: "Roboto Condensed";
+.lora- {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: medium;
+}
+
+body {
+    font-family: "Lora", sans-serif;
+    background-color: rgb(181, 148, 107);
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
 }
